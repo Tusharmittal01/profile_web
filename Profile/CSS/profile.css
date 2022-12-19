@@ -1,0 +1,616 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.mountain_img{
+    height: 400px;
+    width: 100%px;
+}
+.mountain_img img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: 0px -440px;
+    border-radius: 0px 0px 110px 110px;
+}
+main{
+    width: 100%;
+    height: 815px;
+}
+main .anime_img{
+    height: 250px;
+    width: auto;
+    border: 8px solid white;
+    border-radius: 140px;
+    margin: -125px auto;
+    display: block;
+}
+main .name{
+    margin-top: 150px;
+    font-size: 50px;
+    text-align: center;
+}
+main .about_me{
+    margin-top: 10px;
+    text-align: center;
+}
+main .mouse_img{
+    height: 50px;
+    width: auto;
+    display: block;
+    margin: 80px auto 0px auto;
+    border-radius: 13px;
+}
+main .mouse_img:hover{
+    cursor: pointer;
+    background-color: red;
+    transition-delay: 0.1s;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+.small_red_circle{
+    background-color: #ea4335;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    position: relative;
+}
+.small_red_circle p{
+    font-size: 50px;
+    position: absolute;
+    top: -6px;
+    right: -30px;
+}
+.black{
+    background-color: black;
+}
+.red{
+    background-color: #ea4335;
+}
+main .circle{
+    float: right;
+    margin-top: -50px;
+    margin-right: 120px;
+}
+.black p{
+    color: red;
+    width: 107px;
+    padding: 16px 27px;
+}
+.red p{
+    color: white;
+    width: 66px;
+    padding: 12px 27px;
+}
+main .circle:hover{
+    background-color: pink;
+}
+main .skills{
+    width: 1200px;
+    margin: 60px auto;
+}
+.skill{
+    width: 310px;
+    height: 135px;
+    padding: 30px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    text-align: left;
+}
+.skill h2{
+    float: left;
+}
+.skill img{
+    float: right;
+}
+.skill h1{
+    margin-top: 40px;
+}
+.skills .dedication{
+    float: left;
+}
+.skills .smart_work{
+    float: left;
+    margin: 0 42px;
+}
+.skills .intelligence{
+    float: right;
+}
+.working_girl{
+    background-color: #232835;
+    height: 846px;
+    padding: 100px 345px;
+    color: white;
+}
+.working_girl .img_section img{
+    float: left;
+    width: auto;
+    height: 545px;
+}
+.working_girl .img_section .working_girl_content{
+    float: left;
+    margin-left: 100px;
+    width: 495px;
+}
+.working_girl_content h1{
+    margin: 25px 0;
+    font-size: 35px;
+}
+.working_girl_content p{
+    line-height: 25px;
+}
+.download_cv{
+    margin-top: 40px;
+}
+.download_cv .cv{
+    background-color: #ea4335;
+    width: 98px;
+    padding: 10px 35px;
+    border-radius: 23px;
+    cursor: pointer;
+    float: left;
+}
+.download_cv .circle{
+    float: right;
+    margin-right: 215px;
+}
+.projects{
+    margin-top: 130px;
+}
+.projects .project{
+    float: left;
+}
+.projects .project h2{
+    font-size: 45px;
+}
+.projects .project p{
+    font-size: 15px;
+}
+.projects .open_source{
+    margin-left: 47px;
+}
+.projects .loc{
+    margin-left: 55px;
+}
+
+.softwares_using{
+    margin-top: 70px;
+}
+.softwares_using .software{
+    width: 100px;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid white;
+    border-radius: 10px;
+    float: left;
+}
+.service_section_padding{
+    padding: 95px 365px;
+    text-align: center;
+}
+.services_section h4{
+    color: grey;
+}
+.services_section h1{
+    margin-top: 10px;
+    margin-bottom: 30px ;
+    font-size: 45px;
+    font-weight: 900;
+}
+.services_section .all_services .service_card{
+    text-align: left;
+    padding: 25px;
+    border: 2px solid #80808075;
+    width: 195px;
+    float: left;
+    margin: 0 22px;
+}
+.services_section .all_services{
+    height: 312px;
+}
+.services_section .all_services .service_card h3{
+    margin: 25px 0;
+}
+.services_section .all_services .service_card p{
+    line-height: 25px;
+}
+.services_section .all_services .service_card .small_red_circle{
+    margin: 15px 0;
+}
+.services_section .all_services .service_card .small_red_circle p{
+    color: black;
+}
+.all_logoipsum{
+    margin-top: 35px;
+}
+.all_logoipsum .logoipsum{
+    opacity: 0.5;
+    height: auto;
+    width: 170px;
+    cursor: pointer;
+    margin: 0 30px;
+}
+.all_logoipsum .logoipsum:hover{
+    opacity: 1;
+}
+.portfolio{
+    background-color: #232835;
+    height: 965px;
+    color: white;
+}
+.portfolio .portfolio_padding{
+    padding: 80px 380px;
+}
+.portfolio .portfolio_padding h1{
+    font-size: 30px;
+    margin-top: 15px;
+}
+.portfolio .portfolio_padding img{
+    border-radius: 30px;
+}
+.portfolio .portfolio_padding .portfolio_heading,.portfolio .portfolio_padding h1{
+    text-align: center;
+}
+.portfolio .uper_portfolio{
+    margin-top: 60px;
+}
+.portfolio .lower_portfolio{
+    margin-top: 415px;
+}
+.portfolio h5 p{
+    display: inline;
+    font-size: 36px;
+}
+.portfolio h3{
+    margin-top: 20px;
+}
+.portfolio .uper_portfolio .creative{
+    float: left;
+}
+.portfolio .uper_portfolio .unicorn{
+    float: right;
+}
+.portfolio .uper_portfolio .unicorn img{
+    height: 258px;
+    width: auto;
+}
+.portfolio .lower_portfolio .nft{
+    float: left;
+}
+.portfolio .lower_portfolio .nft img{
+    height: 258px;
+    width: auto;
+}
+.portfolio .lower_portfolio .vs{
+    float: right;
+}
+.portfolio .lower_portfolio .vs img{
+    height: 258px;
+    width: auto;
+}
+.our_skill_section{
+    height: 670px;
+}
+.our_skill_section .our_skill_padding{
+    padding: 107px 440px;
+}
+.our_skill_section .our_skill_content{
+    float: left;
+    width: 535px;
+}
+.our_skill_section .our_skill_content h4,.our_skill_section .our_skill_content .content{
+    color: grey;
+}
+.our_skill_section .our_skill_content h1{
+    margin: 10px 0 30px 0;
+    font-size: 45px;
+}
+.our_skill_section .our_skill_content .content{
+    line-height: 25px;
+}
+.our_skill_section .our_skill_content h3{
+    margin-top: 30px;
+}
+.our_skill_section .our_skill_content .bar{
+    height: 10px;
+    border-radius: 10px;
+    background-color: grey;
+}
+.our_skill_section .our_skill_content .bar .bar_filled{
+    height: 100%;
+    background-color: red;
+    border-radius: 10px;
+}
+.our_skill_section .our_skill_content .bar .ui_bar_filled{
+    width: 75%;
+}
+.our_skill_section .our_skill_content .bar .webd_bar_filled{
+    width: 95%;
+}
+.our_skill_section .our_skill_content .bar .appd_bar_filled{
+    width: 85%;
+}
+.our_skill_section .our_skill_content .bar .gamedev_bar_filled{
+    width: 80%;
+}
+.our_skill_section .our_skill_content .bars p{
+    font-size: 14px;
+}
+.our_skill_section .our_skill_content .ui p{
+    margin-left: 72%;
+}
+.our_skill_section .our_skill_content .web_d p{
+    margin-left: 92%;
+}
+.our_skill_section .our_skill_content .app_d p{
+    margin-left: 82%;
+}
+.our_skill_section .our_skill_content .game_dev p{
+    margin-left: 77%;
+}
+.our_skill_section .our_skill_content .bars .bar .bar_filled:hover{
+    background-color: lightskyblue;
+}
+.our_skill_section img{
+    float: right;
+    width: auto;
+    height: 500px;
+}
+.price_section{
+    height: 635px;
+    background-color: #232835;
+    color: white;
+    text-align: center;
+}
+.price_section .price_section_padding{
+    padding: 75px 440px;
+}
+.price_section .price_section_padding h1{
+    font-size: 40px;
+    margin-top: 15px;
+}
+.price_section .price_section_padding .price_table{
+    margin-top: 60px;
+}
+.price_section .price_section_padding .plan{
+    height: 325px;
+    width: 250px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 45px;
+    text-align: left;
+}
+.price_section .price_section_padding .plan h2{
+    margin-left: -20px;
+}
+.price_section .price_section_padding .plan h4{
+    margin:10px 0 40px -20px;
+}
+.price_section .price_section_padding .plan ul{
+    line-height: 25px;
+}
+.price_section .price_section_padding .plan .small_red_circle{
+    margin: 20px 0 0 -20px;
+}
+.price_section .price_section_padding .plan .small_red_circle p{
+    top: -23px;
+}
+.price_section .price_table .basic_plan{
+    float: left;
+}
+.price_section .price_table .optimal_plan{
+    float: left;
+    margin: 0 62px;
+}
+.price_section .price_table .premium_plan{
+    float: right;
+}
+.testimonials_section{
+    padding: 100px 385px;
+}
+.testimonials_section h4{
+    color: grey;
+    text-align: center;
+}
+.testimonials_section h1{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+.testimonials_section .founders{
+    height: 185px;
+}
+.testimonials_section .founders .founder{
+    width: 539px;
+    line-height: 25px;
+}
+.testimonials_section .founders .founder img{
+    height: 70px;
+    border-radius: 35px;
+    float: left;
+}
+.testimonials_section .founders .founder .name{
+    padding-top: 12px;
+}
+.testimonials_section .founders .founder h5{
+    color: grey;
+}
+.testimonials_section .founders .founder .about_founder{
+    color: grey;
+    margin-top: 25px;
+}
+.testimonials_section .founders .john_carter{
+    float: left;
+}
+.testimonials_section .founders .david_smith{
+    float: right;
+}
+.testimonials_section .hover_dots .dot{
+    border: 5px solid white;
+    box-shadow: 0 0 2px white;
+    background-color: grey;
+}
+.testimonials_section .hover_dots{
+    margin: 20px auto;
+}
+.hover_dots{
+    width: 120px;
+}
+.hover_dots .dot{
+    height: 10px;
+    width: 10px;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+.hover_dots .dot:hover{
+    box-shadow: 0 0 2px red;
+}
+.testimonials_section .hover_dots .dot:hover{
+    border: 5px solid white;
+}
+.blogs_section{
+    height: 640px;
+    padding: 90px 280px;
+    color: white;
+    background-color: #232835;
+}
+.blogs_section h4{
+    color: grey;
+    text-align: center;
+}
+.blogs_section h1{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 45px;
+}
+.blogs_section .all_blogs{
+    margin-top: 50px;
+    height: 370px;
+}
+.blogs_section .blog{
+    width: 427px;
+}
+.blogs_section .blog h5{
+    color: grey;
+    margin: 15px 0px;
+    font-size: 15px;
+}
+.blogs_section .blog p{
+    font-size: 25px;
+    line-height: 35px;
+}
+.blogs_section .blog_1{
+    float: left;
+}
+.blogs_section .blog_2{
+    float: left;
+    margin: 0 32px;
+}
+.blogs_section .blog_3{
+    float: right;
+}
+.blogs_section .hover_dots{
+    margin: 80px auto;
+}
+.blogs_section .hover_dots .dot{
+    border: 5px solid #232835;
+    box-shadow: 0 0 2px #232835;
+    background-color: white;
+}
+.blogs_section .hover_dots .dot:hover{
+    border: 5px solid #232835;
+}
+.contact_section{
+    height: 769px;
+}
+.contact_section .form{
+    padding: 90px 275px;
+    width: 494px;
+    float: left;
+}
+.contact_section .form h4{
+    color: grey;
+}
+.contact_section .form h1{
+    font-size: 42px;
+}
+.contact_section .form h1 span{
+    color: red;
+}
+.contact_section .form .name_detail{
+    margin-top: 25px;
+}
+.contact_section .form .detail{
+    height: 82px;
+}
+.contact_section .form .left{
+    float: left;
+}
+.contact_section .form input{
+    padding: 13px;
+}
+.contact_section .form .right{
+    float: right;
+}
+.contact_section .form .email_detail{
+    margin-top: 20px;
+}
+.contact_section .form .message{
+    margin-top: 20px;
+}
+.contact_section .form .message input{
+    padding: 18px 300px 60px 15px;
+}
+.contact_section .form .circle{
+    margin-top: 40px;
+}
+.contact_section .logos{
+    float: left;
+    width: 300px;
+    padding: 235px 0px 0px;
+}
+.contact_section .logos .logo{
+    height: 62px;
+    margin-bottom: 40px;
+}
+.contact_section .logos .logo img{
+    float: left;
+}
+.contact_section .logos .logo .logo_detail{
+    padding-top: 9px;
+    padding-left: 72px;
+}
+.contact_section .logos .logo .logo_detail h5{
+    font-size: 15px;
+}
+.contact_section .logos .logo .logo_detail p{
+    margin-top: 8px;
+}
+footer{
+    height: 53px;
+    background-color: #232835;
+    color: white;
+}
+footer .p1{
+    float: left;
+    margin-left: 265px;
+    margin-top: 15px;
+}
+footer .p2{
+    float: right;
+    margin-right: 355px;
+    margin-top: 13px;
+}
+footer .p3{
+    float: right;
+    margin-top: 15px;
+    margin-right: 30px;
+}
